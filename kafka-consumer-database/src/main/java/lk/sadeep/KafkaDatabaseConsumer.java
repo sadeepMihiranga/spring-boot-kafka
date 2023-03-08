@@ -16,5 +16,7 @@ public class KafkaDatabaseConsumer {
     )
     public void consume(String eventMessage) {
         LOGGER.info(String.format("Event message received -> %s", eventMessage));
+
+        // here we can save data or do whatever task to process
     }
 }
